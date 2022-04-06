@@ -1,0 +1,14 @@
+public class texBloc {
+
+	public static void main(String[] args) {
+		
+		String json="""
+				JSON: acrononym de java script onbejt nation
+				langage qui permet de discuter entre les machines 
+				""";
+		System.out.println(json);
+		
+	}
+		
+		
+	}		
