@@ -1,0 +1,36 @@
+
+public class testbreak {
+
+	public static void main(String[] args) {
+//		for (int i = 0; i < 10; i++) {
+//			if(i==5) {
+//				return;
+//				}
+//			System.out.println("le compte est de :"+i);
+//			
+//		}
+		    firstLoop : //un break avec etiquette 
+			
+			for (int line= 0;line < 10; line++) {
+			for (int column= 0;column < 10; column++) {
+				if(line==5 && column==5) {
+					break firstLoop;
+				}
+				
+				System.out.println(line +"X"+column);
+				
+			}
+			
+			
+		}
+		
+		
+		System.out.println("a la prochaine !!!");
+		{
+			
+		}
+		
+
+	}
+
+}
