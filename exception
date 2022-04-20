@@ -1,0 +1,30 @@
+public class exception {
+
+public class void main (String[]args){
+//creer des exceptions avec la methode try and catch()
+// le but rappel des exceptions 
+		  int n1,n2,quotien =0;
+		  n1=6;
+		  n2=0;
+		  try {
+		  quotien =n1/n2; //verifier la source de probléme.
+		  }
+		  catch(Exception e){ // e c'est un objet 
+			  e.printStackTrace();// le programme ne s'arréte pas de s'executé 
+		  }
+			  
+		  }
+		  System.out.println("les resultat est de :"+quotien);
+		  
+		
+
+
+
+
+
+
+
+
+
+
+}
